@@ -69,21 +69,9 @@ pipeline {
             sh 'echo One'
           }
         }
-        stage('Two') {
-          steps {
-            sh 'echo Two'
-          }
-        }
-        stage('Three') {
-          steps {
-            sh 'echo Three'
-          }
-        }
+
 
       }
     }
-
-
-
   }
 }

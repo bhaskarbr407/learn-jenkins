@@ -61,17 +61,10 @@
 pipeline {
   agent any
   stages {
-    stage('Parallel') {
-      parallel {
-
         stage('One') {
           steps {
             sh 'echo One'
           }
         }
-
-
-      }
-    }
   }
 }
